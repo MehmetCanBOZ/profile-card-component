@@ -1,0 +1,118 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.background{
+  height: 100vh;
+  background: url(../images/bg-pattern-top.svg) top -520px left -230px no-repeat,
+            url(../images/bg-pattern-bottom.svg) bottom -585px right -250px no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color:hsl(185, 75%, 39%);
+  font-family: 'Kumbh Sans', sans-serif;
+  color: hsl(0, 0%, 35%);
+  overflow: hidden;
+  
+                   
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:  hsl(60, 33%, 99%);
+  border-radius: 20px;
+  box-shadow: 30px 20px 200px rgba(1,40,102,0.4);
+  width: 350px;
+  height: 390px;
+}
+.card-top img{
+  border-radius: 20px 20px 0px 0px;
+ }
+
+ .card-mid{
+   width: 100%;
+   text-align: center;
+   border-bottom: 1px solid rgba(10,10,10, 0.1);;
+   padding-bottom: 20px;
+ }
+ .pp{
+   margin-top: -55px;
+   margin-bottom: 0px;
+   border-radius: 100px;
+   border: 5px solid hsl(60, 33%, 99%);;
+ }
+ .card-mid h1{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+  }
+  .card-mid h1 span:nth-child(2){
+    color: hsl(0, 0%, 50%);
+     font-weight: 400;
+  }
+  .card-mid p{
+    margin: 10px;
+    font-size: 15px;
+    color: hsl(0, 0%, 45%);
+  }
+  .card-bottom{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 120px;
+  }
+  .card-bottom div{
+    text-align: center;
+    width: 33%;
+  }
+  .card-bottom h2{
+  font-size: 20px;
+  }
+.card-bottom p{
+  margin: 0px;
+  padding-top: 5px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: hsl(0, 0%, 45%);
+ }
+ footer{
+ position: absolute;
+ bottom: 10px;
+ left: 20px;
+ }
+ @media only screen  and (max-width: 375px){
+  .background{
+    height: 100vh;
+    background: url(../images/bg-pattern-top.svg) top -600px left -750px no-repeat,
+                url(../images/bg-pattern-bottom.svg) bottom -550px right -750px no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(0, 0%, 35%);
+    overflow: hidden;
+  }
+  .card{
+    width: 325px;
+}
+.card-top img{
+    width: 325px;
+}
+  
+   
+ }
